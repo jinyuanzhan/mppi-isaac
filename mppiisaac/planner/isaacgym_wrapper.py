@@ -518,7 +518,6 @@ class IsaacGymWrapper:
 
         # if wheel_sets > 1:
         #     u_ik = u_ik.repeat(1, wheel_sets)
-
         return u_left_wheel, u_right_wheel
 
     def apply_robot_cmd(self, u_desired):

@@ -1,0 +1,9 @@
+type: robot
+name: hockey_goal
+dof_mode: position
+urdf_file: "hockey_puck/hockey_goal.urdf"
+fixed: True
+flip_visual: false
+gravity: false
+collision: True
+init_pos: [2.0, 0.0, 0.0]
