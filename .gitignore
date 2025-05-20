@@ -4,6 +4,8 @@ __pycache__/*
 dist
 build
 thirdparty/**/*
+。DS_Store
+**/.DS_Store
 
 **/outputs/**
 .venv
