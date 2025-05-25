@@ -1,0 +1,73 @@
+<!-- <?xml version="1.0"?>
+<robot name="puck">
+
+  <link name="puck">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.17"/>
+      <inertia 
+        ixx="0.0001153898" ixy="0.0" ixz="0.0"
+        iyy="0.0001153898" iyz="0.0"
+        izz="0.0002125"/>
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.0254"/>
+      </geometry>
+      <material name="puck_mat">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+
+    <collision name="puck_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.0254"/>
+      </geometry>
+  
+    </collision>
+  </link>
+
+
+</robot> -->
+
+
+<?xml version="1.0"?>
+<robot name="puck">
+
+  <!-- DEFINE -->
+  <link name="puck">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.07"/>
+      <inertia 
+        ixx="0.0001153898" ixy="0.0" ixz="0.0"
+        iyy="0.0001153898" iyz="0.0"
+        izz="0.0002125"/>
+    </inertial>
+
+    <!-- VISUAL -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.0254"/>
+      </geometry>
+      <material name="puck_mat">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+
+    <!-- COLLISION -->
+    <collision name="puck_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.0254"/>
+      </geometry>
+      
+    </collision>
+  </link>
+
+
+</robot>

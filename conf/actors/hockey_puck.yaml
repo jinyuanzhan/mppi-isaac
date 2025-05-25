@@ -1,0 +1,9 @@
+type: "robot"  
+name: "hockey_puck"
+urdf_file: "hockey_puck/puck.urdf"
+fixed: False  
+collision: True
+init_pos: [2, 1.0, 0.5]  
+mass: 0.17  
+color: [0.0, 0.0, 0.0]  
+gravity: True
