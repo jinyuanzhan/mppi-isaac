@@ -82,8 +82,7 @@
     <visual>
       <origin xyz="0 -0.01 0.0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="models/hockey_goal/soccer_net.stl"
-              scale="2.33 2.0 1.93"/>
+        <mesh filename="soccer_net.stl" scale="2.33 2.0 1.93"/>
       </geometry>
       <material name="net_white"><color rgba="1 1 1 1"/></material>
     </visual>

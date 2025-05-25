@@ -1,0 +1,32 @@
+type: robot
+name: omnipanda_effort_fixed_base
+dof_mode: effort
+urdf_file: "hockey_puck/panda_isaac/robots/franka_panda_gripper_test_puck.urdf"
+visualize_link: "hockey_tip"
+fixed: true
+flip_visual: true
+gravity: false
+# only for fixed based franka panda format：
+init_joint_pose: [0.0, 0.0, -0.94, 0.0, 0.0, 0.0, -2.8, 0.0, 0.0, 0.0, 1.8675, 0.0, 0.0, 0.0]
+# init_joint_pose: [0.0, 0.0, 0.6, 0.0, 0.0, 0.0, -1.2, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.0]
+# nit_joint_pose: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.2, 0.0, 0.0, 0.0, 1.6, 0.0, 0.0, 0.0]
+
+# # init_joint_pose: [
+#    # base
+#    1.2, 0.0,   # omni_joint_x
+#    0.0, 0.0,   # omni_joint_y
+#    0.0, 0.0,   # omni_joint_theta
+  
+#    # Panda
+#    -0.3, 0,    # panda_joint1
+#    -1.0, 0,    # panda_joint2
+#    0.0, 0,     # panda_joint3
+#    -2.2, 0,    # panda_joint4
+#    0.0, 0,     # panda_joint5
+#    1.5, 0,     # panda_joint6
+#    1.5, 0,     # panda_joint7
+  
+#    # gripper
+#    0.02, 0.0,  # gripper_joint1
+#    0.02, 0.0   # gripper_joint2
+# ]
